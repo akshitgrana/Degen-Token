@@ -27,7 +27,7 @@ contract DegenToken is IERC20 {
     event Mint(address to, uint256 value);
     event ItemAdded(string name, uint256 price);
 
-    constructor(string memory name, string memory symbol) {
+    constructor() {
         _owner = msg.sender;
 
         // Initialize the inventory with some items
