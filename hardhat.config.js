@@ -32,7 +32,6 @@ module.exports = {
       chainId: 43113,
       accounts: [
         // YOUR PRIVATE KEY HERE
-        "08da71547487491ff446928021b93a176d53a94226f4bff1d677bfce3b6e5af8"
       ]
     },
     mainnet: {
