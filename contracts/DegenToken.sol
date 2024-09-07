@@ -31,9 +31,9 @@ contract DegenToken is IERC20 {
         _owner = msg.sender;
 
         // Initialize the inventory with some items
-        _inventory.push(Item("shirt", 10));
-        _inventory.push(Item("pant", 8));
-        _inventory.push(Item("belt", 5));
+        _inventory.push(Item("icecream", 10));
+        _inventory.push(Item("kitkat", 8));
+        _inventory.push(Item("dairymilk", 7));
     }
 
     function totalSupply() external view returns (uint256) {
